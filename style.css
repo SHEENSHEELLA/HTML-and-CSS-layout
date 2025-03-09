@@ -23,7 +23,6 @@ ul {
 }
 
 .container {
-  border: 1px solid red;
   margin: 0 auto;
   max-width: 1170px;
   width: 100%;
@@ -171,5 +170,19 @@ footer a {
   h1 {
     font-size: 28px;
     margin-bottom: 46px;
+  }
+
+  footer {
+    height: 140px;
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+    row-gap: 20px;
+    padding-right: 24px;
+  }
+
+  .footer-links li {
+    flex: 0 0 141px;
   }
 }
